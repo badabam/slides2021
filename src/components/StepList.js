@@ -11,6 +11,7 @@ export default function StepList({ children }) {
     .split('-')
     .map(x => x.trim())
     .slice(1)
+
   const onStepMemoized = useCallback(onStep, [stepIndex, items.length])
 
   useEffect(() => {

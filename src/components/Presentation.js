@@ -1,7 +1,6 @@
 import { MDXProvider } from '@mdx-js/react'
 import React from 'react'
-import { Deck, Heading, mdxComponentMap, Notes, Slide } from 'spectacle'
-import styled from 'styled-components/macro'
+import { Deck, mdxComponentMap, Notes, Slide } from 'spectacle'
 import Template from './Template'
 
 const theme = {
